@@ -16,9 +16,9 @@ let prompt = require('prompt');
 
 console.log("\n");
 console.log("Enter your Utility Chain address - HEX format starting with 0x..")
-prompt.get(['eth_key'], (err, result) => {
+prompt.get(['dijets_hex_key'], (err, result) => {
     try{
-        let key = result.eth_key;
+        let key = result.dijets_hex_key;
 
         // Strip the 0x if exists
         if(key.substr(0,2) === '0x'){
