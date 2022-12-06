@@ -9,7 +9,7 @@ NodeJs v12.14.1
 ## Running
 
 ### Step 1: Installation
-1) `git clone https://github.com/lasthyphen/dijets-account-helper.git`
+1) `git clone https://github.com/Dijets-Inc/dijets-account-helper.git`
 2) `cd dijets-account-helper/`
 3) `npm install`
 
